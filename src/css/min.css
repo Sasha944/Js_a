@@ -1,0 +1,21 @@
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    text-align: justify;
+}
+.list:after{
+    display: inline-block;
+    content: '';
+    width: 100%;
+    font-size: 0;
+    height: 0;
+}
+.myLi{
+    display: inline-block;
+}
+.answering,
+.asking{
+    font-size: 18px;
+}
